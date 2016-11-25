@@ -10,6 +10,7 @@ a{ text-decoration: none; color:#8F8F8F;}
 
 
 
+
 .header .top{border-bottom: 1px #d1d0d0 solid; background-color: #f8f8f8; height: 35px;line-height: 35px; color: #8F8F8F;}
 .top span{ padding-right: 10px;  }
 
@@ -20,13 +21,14 @@ a{ text-decoration: none; color:#8F8F8F;}
 
 .header .search{ margin: 40px 80px; float: left;}
 .header .search form{ margin-bottom: 10px;}
-.header .search .text{ width: 320px; border: #015C5C 3px solid; height: 36px;}
+.header .search .text{ width: 370px; border: #015C5C 3px solid; height: 36px;}
 .header .search .btn{ padding: 9px 15px 12px; border: #015C5C 1px solid; background: #015C5C; color: #fff; font-size: 16px;}
 .header .search p{ float: left; color: #8F8F8F;}
 .header .search li{float: left; padding-right: 10px; }
+.header .search li a:hover{ color: red;  }
 
-.header .tel{ float: left; background: url(../images/telbg.png) no-repeat 0 40px ; width: 165px;height: 54px; padding-top: 60px; padding-right: 10px;}
-.header .tel p{ font-size: 22px; color: #f75d00; }
+.header .tel{ float: right; background: url(../images/telbg.png) no-repeat 0 40px ; width: 165px;height: 54px; padding-top: 60px; padding-right: 10px;}
+.header .tel p{ font-size: 22px; color: #f75d00; font-weight: bold; }
 
 .header .nav{ background:#015C5C;}
 .header .nav li{ float: left; width: 135px; height: 45px;}
@@ -50,7 +52,7 @@ a{ text-decoration: none; color:#8F8F8F;}
 .zhuangxiu li{ font-size: 12px; line-height: 1em; padding: 20px 10px 0;}
 .zhuangxiu li span{ float: right; }
 
-.navs{ background: #015a5a; height: 39px; line-height: 39px; }
+.navs{ background: #015a5a; height: 39px; line-height: 39px;}
 .navs h2{ float: left; font-size: 20px; color: #fff;}
 .navs ul{ float: right; }
 .navs li{ float: left; font-size: 12px; }
@@ -77,6 +79,8 @@ a{ text-decoration: none; color:#8F8F8F;}
 .footer span{ font-size: 14px;}
 .footer .two{ float: right; margin: 40px 10px;}
 .two li{ float: left; font-size: 12px; border-right: 1px #fff solid; margin:0 5px; padding-right: 5px;}
+.two a{ color:#fff; }
+.two a:hover{ color: red; }
 .two p{ float: right; padding-top: 10px; }
 
 
